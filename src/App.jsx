@@ -111,12 +111,12 @@ const App = () => {
             placeholder="add details"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            className="flex-1 rounded-xl h-11 border border-gray-200 px-4 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 font-medium"
+            className="flex-1 rounded-xl !h-11 border border-gray-200 px-4 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 font-medium"
           />
           <Button
             type="primary"
             htmlType="submit"
-            className="bg-blue-500 hover:bg-blue-600 border-none font-semibold px-8 rounded-xl h-11 text-white shadow-sm cursor-pointer transition-all duration-200"
+            className="bg-blue-500 hover:bg-blue-600 border-none font-semibold px-8 rounded-xl !h-11 text-white shadow-sm cursor-pointer transition-all duration-200"
           >
             Add
           </Button>
